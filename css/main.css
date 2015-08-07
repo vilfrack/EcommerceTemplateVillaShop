@@ -68,7 +68,7 @@ margin: 0;
     padding-top: 10px;
 }
 h1,h2,h3,h4,h5,h6{
-    color:#ff4411;
+    color:#e55f0b;
 	font-size:20px;
 	font-family: 'Signika', sans-serif;
 	padding-bottom:10px;
@@ -444,36 +444,25 @@ html > body, html > body #Pie {
     
     
 }
-
-
-
 #SPublicidad {
     margin-top: 10px;
     
 }
-
-
-
 #listaProducto {
     margin-bottom: 25px;
    
 }
-
 .contenedor {
     border: 1px solid #e55f0b;
     max-height: 100%;
     height: 100%;
 }
-
-
-
 .borderBot {
     border-bottom: 1px solid #B6B6B6;
     clear: both;
     width: 100%;
    
 }
-
 .center {
     clear: both;
     text-align: center;
@@ -492,4 +481,30 @@ html > body, html > body #Pie {
 #SListaPorductos {
     margin: 60px 0 0 0;
     height: 100%;
+}
+#topRecomendado {
+    
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+#topRecomendado .imagen {
+    width: 40%;
+    height: 50%;
+    margin: 5px 2px 0 0;
+    float:left;
+}
+#topRecomendado .imagen > img {
+    width: 100%;
+    height: 100%;
+}
+#topRecomendado .descImagen {
+    width: 55%;
+    float: left;
+}
+#topRecomendado .descImagen .agrupacionItemTitulos {
+    color: #e55f0b;
+}
+
+.margen{
+    margin-top: 20px;
 }
